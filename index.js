@@ -14,11 +14,6 @@ inquirer
     },
     {
         type: 'input',
-        message: 'Provide a Table of Contents.',
-        name: 'contents',
-    },
-    {
-        type: 'input',
         message: 'What are the installation steps?',
         name: 'install',
     },
@@ -51,14 +46,47 @@ inquirer
     ])
     .then((response) => {
         const filename = 'README.md';
-        const generateHTML = function ({ title, desc, contents, install, contributors, testing, licensing, github, email }) {
-            return //insert ReadMe Layout here
+        const generateREAD = function ({ title, desc, install, contributors, testing, licensing, github, email }) {
+            return
+            `# ${title}
+
+            ## Description
+            ${desc}
+
+            ## Table of Contents
+
+                - [Installation](#installation)
+                - [Usage](#usage)
+                - [Credits](#credits)
+                - [License](#license)
+
+            ## Installation
+            ${install}
+
+            ## Usage & Testing
+
+            Provide instructions and examples for use.Include screenshots as needed.
+            ${install}
+
+            ${testing}
+
+            ## Credits
+            ${contributors}
+
+            ## License
+            ${licensing}
+
+            ## Questions
+            If you have any question feel free to email me at ${email}
+            or you can check out my GitHub at ${github}
+
+            ## How to Contribute
+
+            [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)`
         };
 
 
-        fs.writeFile(filename, generateHTML(response), (err) =>
+        fs.writeFile(filename, generateREAD(response), (err) =>
             err ? console.log(err) : console.log('Success!')
         );
     });
-
-    //comments to test git push and gitignore file.
