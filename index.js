@@ -47,44 +47,44 @@ inquirer
     .then((response) => {
         const filename = 'README.md';
         const generateREAD = function ({ title, desc, install, contributors, testing, licensing, github, email }) {
-            return
-            `# ${title}
+            return `# ${title}
 
-            ## Description
-            ${desc}
+## Description
+${desc}
 
-            ## Table of Contents
+## Table of Contents
 
-                - [Installation](#installation)
-                - [Usage](#usage)
-                - [Credits](#credits)
-                - [License](#license)
+    - [Installation](#installation)
+    - [Usage](#usage)
+    - [Credits](#credits)
+    - [License](#license)
 
-            ## Installation
-            ${install}
+## Installation
+${install}
 
-            ## Usage & Testing
+## Usage & Testing
 
-            Provide instructions and examples for use.Include screenshots as needed.
-            ${install}
+Provide instructions and examples for use.Include screenshots as needed.
+${install}
 
-            ${testing}
+${testing}
 
-            ## Credits
-            ${contributors}
+<!--- Dont forget to add your Screenshots! --->
 
-            ## License
-            ${licensing}
+## Credits
+${contributors}
 
-            ## Questions
-            If you have any question feel free to email me at ${email}
-            or you can check out my GitHub at ${github}
+## License
+${licensing}
 
-            ## How to Contribute
+## Questions
+If you have any question please email me at ${email}
+or you can check out my GitHub at ${github}
 
-            [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)`
+## How to Contribute
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)`
         };
-
 
         fs.writeFile(filename, generateREAD(response), (err) =>
             err ? console.log(err) : console.log('Success!')
