@@ -31,7 +31,14 @@ inquirer
         type: 'list',
         message: 'Choose a licensing option',
         name: 'licensing',
-        choices: ['MIT', 'Apache', 'GNU', 'ISC'],
+        choices: [{
+            name: "MIT",
+            value: "[MIT](https://choosealicense.com/licenses/mit/)"
+         },
+         {
+            name: "BSD",
+            value: "Link goes here!"
+         }],
     },
     {
         type: 'input',
@@ -54,17 +61,15 @@ ${desc}
 
 ## Table of Contents
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
 ## Installation
 ${install}
 
 ## Usage & Testing
-
-Provide instructions and examples for use.Include screenshots as needed.
 ${install}
 
 ${testing}
@@ -74,16 +79,16 @@ ${testing}
 ## Credits
 ${contributors}
 
-## License
-${licensing}
-
 ## Questions
 If you have any question please email me at ${email}
 or you can check out my GitHub at ${github}
 
 ## How to Contribute
 
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)`
+[Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)
+
+## License
+${licensing}`
         };
 
         fs.writeFile(filename, generateREAD(response), (err) =>

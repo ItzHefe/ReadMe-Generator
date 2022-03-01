@@ -1,36 +1,35 @@
-# test title
+# Project Title Test
 
 ## Description
-test desc
+readme gen
 
 ## Table of Contents
 
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
 
 ## Installation
-install test
+pull, npm i
 
 ## Usage & Testing
 
-Provide instructions and examples for use.Include screenshots as needed.
-install test
+pull, npm i
 
-test it
+node index
 
 <!--- Dont forget to add your Screenshots! --->
 
 ## Credits
-myself
+mysel
 
 ## License
-MIT
+[![MIT](https://choosealicense.com/licenses/mit/)](MIT.md)
 
 ## Questions
-If you have any question please email me at email
-or you can check out my GitHub at git
+If you have any question please email me at email.com
+or you can check out my GitHub at github
 
 ## How to Contribute
 
