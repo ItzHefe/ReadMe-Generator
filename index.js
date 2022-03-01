@@ -37,7 +37,15 @@ inquirer
          },
          {
             name: "BSD",
-            value: "Link goes here!"
+            value: "[BSD](https://choosealicense.com/licenses/isc/)"
+         },
+         {
+            name: "Apache",
+            value: "[Apache](https://choosealicense.com/licenses/apache-2.0/)"
+         },
+         {
+            name: "GNU",
+            value: "[GNU](https://choosealicense.com/licenses/gpl-3.0/)"
          }],
     },
     {
@@ -85,7 +93,7 @@ or you can check out my GitHub at ${github}
 
 ## How to Contribute
 
-[Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)
+[Contributor Covenant](https://contributor-covenant.org/)
 
 ## License
 ${licensing}`
