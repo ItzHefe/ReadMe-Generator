@@ -82,7 +82,7 @@ ${install}
 
 ${testing}
 
-<!--- Dont forget to add your Screenshots! --->
+<!--- Don't forget to add your Screenshots! --->
 
 ## Credits
 ${contributors}
