@@ -38,3 +38,5 @@ or you can check out my GitHub at https://github.com/ItzHefe
 ## How to Contribute
 
 [Contributor Covenant](https://contributor-covenant.org/)
+
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)

@@ -64,37 +64,37 @@ inquirer
         const generateREAD = function ({ title, desc, install, contributors, testing, licensing, github, email }) {
             return `# ${title}
 
-## Description
+## Description:
 ${desc}
 
-## Table of Contents
+## Table of Contents:
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
+## Installation:
 ${install}
 
-## Usage & Testing
+## Usage & Testing:
 ${install}
 
 ${testing}
 
 <!--- Don't forget to add your Screenshots! --->
 
-## Credits
+## Credits:
 ${contributors}
 
-## Questions
+## Questions:
 If you have any question please email me at ${email} or you can check out my GitHub at ${github}
 
-## How to Contribute
+## How to Contribute:
 <!--- Replace contributions to your own if you like --->
 [Contributor Covenant](https://contributor-covenant.org/)
 
-## License
+## License:
 ${licensing}`
         };
 
