@@ -88,11 +88,10 @@ ${testing}
 ${contributors}
 
 ## Questions
-If you have any question please email me at ${email}
-or you can check out my GitHub at ${github}
+If you have any question please email me at ${email} or you can check out my GitHub at ${github}
 
 ## How to Contribute
-
+<!--- Replace contributions to your own if you like --->
 [Contributor Covenant](https://contributor-covenant.org/)
 
 ## License
