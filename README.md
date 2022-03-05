@@ -1,36 +1,34 @@
-# Project Title Test
+# ReadMe Generator
 
-## Description
-readme gen
+## Description:
+Automatically generates a readme file based on input from the user in a node window.
 
-## Table of Contents
+## Table of Contents:
 
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
 
-## Installation
-pull, npm i
+## Installation:
+clone down the repo from GitHub, npm i inquirer in your terminal, and run your node index.
 
-## Usage & Testing
+## Usage & Testing:
+clone down the repo from GitHub, npm i inquirer in your terminal, and run your node index.
 
-pull, npm i
+Open your integrated terminal, run node index
 
-node index
+<!--- Don't forget to add your Screenshots! --->
 
-<!--- Dont forget to add your Screenshots! --->
+## Credits:
+Jeff Jarvis
 
-## Credits
-mysel
+## Questions:
+If you have any question please email me at jeffrey.jarvis32@gmail.com or you can check out my GitHub at ItzHefe
 
-## License
-[![MIT](https://choosealicense.com/licenses/mit/)](MIT.md)
+## How to Contribute:
+<!--- Replace contributions to your own if you like --->
+[Contributor Covenant](https://contributor-covenant.org/)
 
-## Questions
-If you have any question please email me at email.com
-or you can check out my GitHub at github
-
-## How to Contribute
-
-[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
+## License:
+[MIT](https://choosealicense.com/licenses/mit/)
